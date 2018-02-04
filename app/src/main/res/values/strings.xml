@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidMvpSample</string>
+    <string name="search_location_text">Enter location to search</string>
+    <string name="search_hint">Search</string>
+    <string name="temperature_with_sign">%1$d\u00b0</string>
+    <string name="error_text">Something went wrong. Please try again.</string>
+    <string name="no_result_text">No results found</string>
+</resources>

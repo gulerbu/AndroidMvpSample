@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.burcuguler.androidmvpsample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".core.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".form.FormActivity">
+
+        </activity>
+        <activity android:name=".weather.search.SearchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".weather.detail.LocationWeatherDetailActivity"
+            android:theme="@style/AppTheme.NoActionbar" />
+    </application>
+
+</manifest>

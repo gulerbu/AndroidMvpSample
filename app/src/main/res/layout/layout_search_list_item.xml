@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout_search_list_item_text_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="16dp"
+        tools:text="San Francisco" />
+
+    <View style="@style/DefaultDivider"/>
+
+</LinearLayout>

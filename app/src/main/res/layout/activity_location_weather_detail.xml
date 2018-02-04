@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail_page_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView
+        android:id="@+id/activity_location_weather_detail_text_view_location"
+        style="@style/TextView.Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="Istanbul" />
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView
+        android:id="@+id/activity_location_weather_detail_text_view_condition"
+        style="@style/TextView.25.Bold.Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="Clear" />
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView
+        android:id="@+id/activity_location_weather_detail_text_view_date"
+        style="@style/TextView.Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="Mon, 20 Jan 2013" />
+
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView
+        android:id="@+id/activity_location_weather_detail_text_view_current_temp"
+        style="@style/TextView.40.Bold.Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        tools:text="27" />
+
+    <ImageView
+        android:id="@+id/activity_location_weather_detail_image_view_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:foregroundGravity="center"
+        android:padding="2dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <com.example.burcuguler.androidmvpsample.view.BaseTextView
+        android:id="@+id/activity_location_weather_detail_text_view_min_max_temp"
+        style="@style/TextView.Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_location_weather_detail_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
